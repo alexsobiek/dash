@@ -2,7 +2,9 @@
 High-performance, multithreaded Java HTTP server written using the Netty framework
 
 ### ⚠️ WIP
-Dash is currently a work in progress and is not production ready
+Dash is currently a work in progress and is not production ready. To access full functionality, you'll also have to
+depend on Netty since methods in the `HttpRequest` and `HttpResponse` class currently directly expose Netty classes. This will
+change by the time of the first release.
 
 ## Example
 [See more](https://github.com/alexsobiek/dash/blob/main/example/src/main/java/com/alexsobiek/dash/example/Server.java)
