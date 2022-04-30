@@ -9,7 +9,7 @@ change by the time of the first release.
 ## Example
 [See more](https://github.com/alexsobiek/dash/blob/main/example/src/main/java/com/alexsobiek/dash/example/Server.java)
 ```java
-public class Server{
+public class Server {
     private final Dash dash;
     private final InetSocketAddress address;
     private final HttpServer server;
