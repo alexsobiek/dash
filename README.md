@@ -25,7 +25,7 @@ public class Server{
     private void listen() {
         server.listen(future -> {
             if (future.isSuccess()) System.out.printf("Example HTTP server started on %s\n", address);
-            else System.out.println(System.out.printf("Failed to start HTTP Server on %s\n", address));
+            else System.out.printf("Failed to start HTTP Server on %s\n", address);
         });
     }
 }
